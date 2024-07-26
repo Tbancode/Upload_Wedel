@@ -43,7 +43,7 @@ h1 {
 // }
 
 input[type="text"],
-input[type="email"] {
+input[type="email"]{
   width: 100%;
   background-color: #ffffff;
   height: 64px;
@@ -56,7 +56,10 @@ input[type="email"] {
   -webkit-transition: 0.5s;
   transition: 0.5s;
   outline: none;
-&:focus, :-webkit-autofill:focus{
+  -webkit-box-shadow: 0 0 0 1000px white inset;
+  box-shadow: 0 0 0 1000px white inset;
+  -webkit-text-fill-color: #333; 
+&:focus{
     border-color:$primary-color;
     background-color: white !important;
     transition: $background-color 5000s ease-in-out 0s;
