@@ -1,0 +1,37 @@
+.element{
+    z-index: 5;
+    position: absolute;
+    background-color:  #FEF3EB;
+    border-radius: 50%;
+    width: 1374px;
+    height: 1264px;
+    margin: 100px auto;
+    top: 638px;
+    left: 53px;
+    gap: 0px;
+    // opacity: 0px;
+
+    .img{
+        margin: auto;
+        width: 872px;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .element{
+        background-color: #ffffff;
+        left: 10px;
+        width: 400px;
+        height: 579px;
+        margin-top: 2px;
+        .img{
+            width: 100px;
+            margin-left: -70px;
+            img {
+                width: 550px;
+                height: 679px;
+                margin-top: 5px;
+            }
+        }
+    }
+}

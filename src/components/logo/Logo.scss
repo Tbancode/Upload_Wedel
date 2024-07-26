@@ -1,0 +1,18 @@
+.logo {
+    margin: auto;
+    width: 166px;
+    height: 39px;
+    // gap: 10px;
+    opacity: 0px;
+    // box-shadow: 0px 4px 4px 0px #00000040;
+    // opacity: 1px;
+    margin-top: 58px;
+
+}
+
+@media screen and (max-width: 900px){
+    .logo{
+        margin-left: 25px;
+        margin-top: 33px;
+    }
+}

@@ -1,0 +1,67 @@
+.brand{
+    background-color: #ffffff;
+    align-content: center;
+
+.brandLogo{
+    // margin: auto;
+    // position: absolute;
+    // width: 439.95px;
+    // height: 94.86px;
+    // height: 60px;
+    margin: 90px 492px 20px 512.03px;
+    justify-content: center;
+    // top: 207px;
+    // margin-left: 512.03px;
+    // margin-right: 492px;
+    // padding: 60px;
+    gap: 0px;
+    // opacity: 0px;
+    // box-shadow: 0px 4px 4px 0px #00000040;
+
+  .svg{
+    margin-bottom: 10px;
+
+}
+}
+     .textDiv{
+        // background-color: aquamarine;
+        align-self: center;
+        align-content: center;
+        justify-content: center;
+        // width: 648px;        
+        h4{
+            font-family: 'Satoshi', sans-serif;
+            text-align: center;
+            font-size: 24px;
+            font-weight: 400;
+        }
+     }
+  
+}
+
+@media screen and (max-width: 900px){
+    .brand{
+    .brandLogo{
+        margin-top:50px;
+        margin-bottom: 20px;
+        margin-left: 20px;
+        .svg{
+            width:195px;
+            height: 43px;
+            // margin-left: 25px;
+        }
+
+    }
+    .textDiv{
+        h4{
+            width: 218px;
+            font-size: 16px;
+            line-height: 22.4px;
+            text-align: left;
+            margin-left: 25px;
+            margin-bottom: 30px;
+            font-weight: 300;
+        }
+    }
+}
+}
