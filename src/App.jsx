@@ -13,7 +13,7 @@ function App() {
     <Router>
     <div className="App">
       <Logo />
-      <Brand />   
+        <Brand />   
          <Routes>
           <Route path="/"  element={<NewsletterForm />} />
           <Route path="/confirmation" element={<ConfirmationPage/>} />
