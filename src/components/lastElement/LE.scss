@@ -3,12 +3,13 @@
     position: absolute;
     background-color:  #FEF3EB;
     border-radius: 50%;
-    width: 1374px;
+    width: 90%;
     height: 1264px;
     margin: 100px auto;
     top: 638px;
     left: 53px;
     gap: 0px;
+    justify-content: center;
     // opacity: 0px;
 
     .img{
@@ -17,8 +18,9 @@
     }
 }
 
+
 @media screen and (max-width: 900px){
-    .element{
+        .element{
         background-color: #ffffff;
         left: 10px;
         width: 400px;
@@ -31,6 +33,7 @@
                 width: 550px;
                 height: 679px;
                 margin-top: 5px;
+                
             }
         }
     }

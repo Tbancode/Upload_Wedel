@@ -57,7 +57,7 @@ input[type="email"] {
   transition: 0.5s;
   outline: none;
 &:focus{
-    border-color: #b04f09;
+    border-color:$primary-color;
 }
 
 }
