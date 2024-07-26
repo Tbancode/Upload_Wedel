@@ -59,6 +59,14 @@ input[type="email"]{
   -webkit-box-shadow: 0 0 0 1000px white inset;
   box-shadow: 0 0 0 1000px white inset;
   -webkit-text-fill-color: #333; 
+  &:-webkit-autofill {
+    transition: background-color 100000000s;
+    transition-delay: 1s;
+  }
+  &:-webkit-autofill::first-line {
+    background-color: #ffffff; /* Change '#ffffff' to your desired color */
+  }
+
 &:focus{
     border-color:$primary-color;
     background-color: white !important;
