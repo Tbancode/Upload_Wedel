@@ -4,7 +4,7 @@ import './Brand.scss';
 export default function Brand() {
   return (
     <div className='brand'>
-          <div className='logo'>
+          {/* <div className='logo'>
  
  <svg width="166" height="39" viewBox="0 0 166 39" fill="none" xmlns="http://www.w3.org/2000/svg">
        <path d="M21.6277 0H36.0563C37.7555 0 39.1322 1.37285 39.1322 3.06552V17.4454H21.6277V0Z" fill="#F58634"/>
@@ -18,7 +18,7 @@ export default function Brand() {
        <path d="M161.795 31.8907V6.12549H166V31.8907H161.795Z" fill="#00193D"/>
        <path d="M105.275 22.6442C108.415 19.5147 113.507 19.5147 116.648 22.6442C113.508 25.7737 108.416 25.7737 105.275 22.6442Z" fill="#00193D"/>
  </svg>
-  </div>
+  </div> */}
 <div className='brandLogo'>
 <svg className='svg' width="440" height="95" viewBox="0 0 440 95" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M211.743 91.5844V0H268.48V14.7706H227.735V38.3198H264.238V52.4633H227.735V76.779H268.48V91.5496H211.743V91.5844Z" fill="#F58634"/>
