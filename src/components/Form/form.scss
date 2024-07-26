@@ -87,6 +87,26 @@ p {
   margin-top: 10px;
 }
 
+.element{
+  // z-index: 5;
+  // position: absolute;
+  background-color:  #FEF3EB;
+  border-radius: 50%;
+  width: 90%;
+  height: 1264px;
+  margin: 100px auto;
+  top: 638px;
+  left: 53px;
+  gap: 0px;
+  justify-content: center;
+  // opacity: 0px;
+
+  .img{
+      margin: auto;
+      width: 872px;
+  }
+}
+
 @media screen and (max-width: 900px){
     form {
         margin: auto;

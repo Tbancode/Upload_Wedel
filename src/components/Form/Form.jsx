@@ -94,6 +94,7 @@ const NewsletterForm = () => {
         <button type="submit">Join The Waitlist</button>
       </form>
       {message && <p>{message}</p>}
+
     </div>
   );
 };

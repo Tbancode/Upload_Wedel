@@ -6,15 +6,21 @@
     width: 90%;
     height: 1264px;
     margin: 100px auto;
-    top: 638px;
-    left: 53px;
+    margin-bottom: 0px;
+    top: 698px;
+    // left: 53px;
     gap: 0px;
+    align-self: center;
+    align-items: center;
     justify-content: center;
     // opacity: 0px;
 
     .img{
         margin: auto;
         width: 872px;
+        img{
+        margin-top: -65px;
+        }
     }
 }
 
