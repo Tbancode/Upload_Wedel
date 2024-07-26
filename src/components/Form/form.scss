@@ -56,10 +56,11 @@ input[type="email"] {
   -webkit-transition: 0.5s;
   transition: 0.5s;
   outline: none;
-&:focus{
+&:focus, :-webkit-autofill:focus{
     border-color:$primary-color;
+    background-color: white !important;
+    transition: $background-color 5000s ease-in-out 0s;
 }
-
 }
 
 button {
