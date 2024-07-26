@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Logo from "./components/logo/Logo";
+// import Logo from "./components/logo/Logo";
 import Brand from "./components/Brand/Brand";
 import NewsletterForm from "./components/Form/Form";
 import ConfirmationPage from "./components/confirmation/confirmation";
@@ -12,7 +12,7 @@ function App() {
   return (
     <Router>
     <div className="App">
-      <Logo />
+      {/* <Logo /> */}
         <Brand />   
          <Routes>
           <Route path="/"  element={<NewsletterForm />} />
