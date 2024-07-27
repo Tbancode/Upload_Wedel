@@ -32,11 +32,13 @@
 // }
 
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 500px){
         .element{
         background-color: #ffffff;
         left: 10px;
-        width: 580px;
+        width: 420px;
+        margin: auto;
+        // width: 72.3%;
         height: 608px;
         margin-top: 51px;
         .img{
@@ -44,8 +46,10 @@
         }
         .imgP{
             display: block;
-            width: 580px;
+            // width: 580px;
+            width: 138.1%;
             margin-left: -90px;
+            margin-right: auto;
             height: 608px;
             img {
                 width: 100%;
