@@ -29,6 +29,7 @@
         align-self: center;
         align-content: center;
         justify-content: center;
+        margin-bottom: 20px;
         // width: 648px;        
         h4{
             font-family: 'Satoshi', sans-serif;
@@ -42,13 +43,15 @@
 
 @media screen and (max-width: 700px){
     .brand{
+        margin-left: 24px;
+        padding: 0;
     .brandLogo{
         margin-top:70px;
         margin-bottom: 0px;
-        margin-left: 20px;
+        // margin-left: 20px;
         .svg{
             width:195px;
-            margin-bottom: 0px;
+            margin-bottom: 14.96px;
             // height: 43px;
             // margin-left: 25px;
         }
@@ -60,8 +63,8 @@
             font-size: 16px;
             line-height: 22.4px;
             text-align: left;
-            margin-left: 25px;
-            margin-bottom: 30px;
+            // margin-left: 25px;
+            margin-bottom: 29px;
             font-weight: 300;
         }
     }
