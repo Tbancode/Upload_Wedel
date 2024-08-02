@@ -1,7 +1,9 @@
 .confirm {
     width: 90%;
+    // height: 200px;
     margin: auto;
-
+    overflow: hidden;
+  .div{
     h1{
         font-family: 'Satoshi', sans-serif;
         font-size: 50px;
@@ -16,9 +18,10 @@
         text-align: center;
     }
 }
-
+}
 @media screen and (max-width: 900px){
     .confirm{
+        .div{
         h1{
             margin-top: 30px;
             font-size: 30px;
@@ -28,4 +31,5 @@
             }
         }
     }
+   }
 }
