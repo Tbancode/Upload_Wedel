@@ -66,7 +66,19 @@ const NewsletterForm = () => {
             required
             placeholder='Enter Your Name'
           />
-        </label> <br />
+        </label> 
+        <br />
+        <label>
+          <input
+            type="email"
+            name="Email"
+            // value={formData.Email}
+            // onChange={handleChange}
+            required
+            placeholder='Enter Your Email'
+          />
+        </label>
+        <br />
         <label>
           <InputMask
             mask="234 999 999 9999"
@@ -79,17 +91,6 @@ const NewsletterForm = () => {
           >
             {(inputProps) => <input {...inputProps} type="text" />}
           </InputMask>
-        </label>
-        <br />
-        <label>
-          <input
-            type="email"
-            name="Email"
-            // value={formData.Email}
-            // onChange={handleChange}
-            required
-            placeholder='Enter Your Email'
-          />
         </label>
         <button type="submit">Join The Waitlist</button>
       </form>

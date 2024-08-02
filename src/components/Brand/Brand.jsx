@@ -4,8 +4,28 @@ import './Brand.scss';
 export default function Brand() {
   return (
     <div className='brand'>
- 
-<div className='brandLogo'>
+    <div className='text'>
+     <h1>Join the waitlist</h1>
+     <h2>Be among the first to experience seamless delivery solutions across Nigeria. Sign up now to get early access to WeDel – your all-in-one platform for food delivery, ride-sharing, and package delivery.</h2>
+     </div>
+     
+      <div className='Icons'>
+        <div className='iconImg'><img src="Images/Eat.png" alt="WeEat" /></div>
+        <div className='iconImg'><img src="Images/Deliver.png" alt="WeEat" /></div>
+        <div className='iconImg'><img src="Images/Ride.png" alt="WeEat" /></div>
+      </div>
+      
+    </div>
+  )
+}
+
+
+
+
+
+
+
+/* <div className='brandLogo'>
 <svg className='svg' width="440" height="95" viewBox="0 0 440 95" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M211.743 91.5844V0H268.48V14.7706H227.735V38.3198H264.238V52.4633H227.735V76.779H268.48V91.5496H211.743V91.5844Z" fill="#F58634"/>
 <path d="M280.891 73.9224C280.891 62.5309 289.13 55.3895 303.766 54.2399L322.261 52.8465V51.453C322.261 43.0575 317.255 39.6784 309.502 39.6784C300.498 39.6784 295.492 43.4407 295.492 49.9551H282.49C282.49 36.5431 293.476 27.7644 310.232 27.7644C326.989 27.7644 337.106 36.787 337.106 53.9612V91.5495H323.721L322.574 82.3876C319.967 88.7626 311.588 93.152 301.958 93.152C288.852 93.152 280.821 85.5229 280.821 73.8527L280.891 73.9224ZM322.4 66.5371V63.2625L309.537 64.2728C300.046 65.1437 296.431 68.2789 296.431 73.2953C296.431 78.9388 300.185 81.6909 307.069 81.6909C316.455 81.6909 322.435 76.0474 322.435 66.5371H322.4Z" fill="#F58634"/>
@@ -18,10 +38,4 @@ export default function Brand() {
  
  <div className='textDiv'>
     <h4>Experience the joy of delicious food, delivered fast.</h4>
- </div>
-
-
-
-    </div>
-  )
-}
+ </div>  */
