@@ -7,13 +7,21 @@
     // box-shadow: 0px 4px 4px 0px #00000040;
     // opacity: 1px;
     margin-top: 58px;
-
+   .logo2{
+    display: none;
+   }
 }
 
 @media screen and (max-width: 700px){
     .logo{
         margin-left: 11px;
         margin-top: 33px;
+        .logo1{
+            display: none;
+        }
+        .logo2{
+            display: inline;
+        }
     }
 }
 
